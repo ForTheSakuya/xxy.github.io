@@ -2,6 +2,7 @@
 小小爻的个人网站
 
 ## FFMPEG 常用命令
+> 使用cmd执行
 1. 视频剪切
 ```cmd
 ffmpeg -i input.ogv -ss 00:00:30.0 -c copy -t 00:00:10.0 output.mp4
